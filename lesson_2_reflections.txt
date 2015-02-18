@@ -3,3 +3,10 @@ Q: What happens when you initialize a repository? Why do you need to do it?
 A: You need to move to that directory within Git Bash using the cd command, and 
 then initialize it using the command git init. Without doing this, one cannot 
 begin to use their repository and make commits to it.
+
+Q: How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+A: The staging area is like an imtermediary between the working directory and the 
+repository. It allows for one to commit only a portion of the files in the
+directory, and also allows the user to add comments along with the commit.
