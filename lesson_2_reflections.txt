@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: You need to move to that directory within Git Bash using the cd command, and 
+then initialize it using the command git init. Without doing this, one cannot 
+begin to use their repository and make commits to it.
