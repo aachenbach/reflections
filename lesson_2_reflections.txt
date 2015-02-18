@@ -10,3 +10,11 @@ What value do you think it offers?
 A: The staging area is like an imtermediary between the working directory and the 
 repository. It allows for one to commit only a portion of the files in the
 directory, and also allows the user to add comments along with the commit.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: Using the staging area, we can ensure that we only add the changes to the current
+commit that we intend to add. If we have two seperate logical errors that we fixed, 
+we can use the staging area to commit each one seperately.
+
+
