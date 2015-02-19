@@ -17,4 +17,33 @@ A: Using the staging area, we can ensure that we only add the changes to the cur
 commit that we intend to add. If we have two seperate logical errors that we fixed, 
 we can use the staging area to commit each one seperately.
 
+Q: hat are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+A: Examples of situations in which branches would be useful would be having a different
+version of the files for different platforms, or for different version languages
+of the program. This allows you to have similiar but slightly different versions
+of the program exist concurrently.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: The diagrams help by making the branches more visually clear and distinct from one
+another, and help to show where there are commits that arent a part of any branches.
+
+Q: What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+A: The result of merging two branches is that all the code that is in common between
+the two, as well as any that was added compared to the parent of both branches, will
+be merged in a single file, while any code that was deleted will be left out. The
+representation on the diagram is used because it makes it clear which commits are 
+reachable by the merged file.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+A: Always doing merges manually would be very time consuming, and sometimes it is
+obvious (even for a computer) how things should be merged. In these cases, automatic
+merging is very helpful. If automatic merging occurred too often, however, it may
+end up that some merges cause the code to break in some way. Git has a good balance
+between these two scenarios.
 
