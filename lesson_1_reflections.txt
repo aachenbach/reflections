@@ -43,6 +43,7 @@ wrong, it is a relatively simple task to just revert to a previous version and u
 to compare different versions and find the bug.
 
 Q: Now that you have your workspace set up, what do you want to try using Git for?
+
 A: My plan is to use GitHub for my group project in my Software Engineering class, as
 it will both help me keep the project organized as well as help me become familiar
 with Git.
